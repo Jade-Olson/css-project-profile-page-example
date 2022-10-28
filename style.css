@@ -1,0 +1,173 @@
+#navBar {
+    background-color: black;
+    width: inherit;
+    height: 50px;
+    margin: 0px;
+}
+.innerBar {
+ display: flex;
+ justify-content: space-between;
+ height: inherit;
+ width:600px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.innerBar2 {
+    display: flex;
+    align-items: center;
+}
+.navItems{
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+button{
+    width:75px;
+    height:25px;
+    color: white;
+    background-color:rgba(0, 255, 255, 0.708);
+    margin:10px
+}
+#container{
+    padding:10px;
+    width:600px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+}
+
+#profile{
+    width:348px;
+    height:280px;
+    margin:10px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+}
+#requests{
+    margin:10px;
+    margin-bottom:20px;
+    width:212px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+}
+#connections{
+    margin:10px;
+    width:212px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+}
+#education{
+    margin:10px;
+    width:348px;
+    height:150px;
+    display:flex;
+    flex-direction: column;
+}
+.profileTopBar{
+    flex:1;
+    background-color:rgba(0, 223, 223, 0.708);
+}
+.topBar{
+    flex:1;
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topBarEdu{
+    flex:1;
+    background-color: rgb(79,79,79);
+    padding-left: 10px;
+}
+.info{
+    flex:2;
+    padding: 25px;
+    padding-top: 40px;
+    border: 3px solid rgb(119, 119, 119);
+    border-top: none;
+}
+.info > * {
+    margin:8px;
+}
+.info2{
+    flex:3;
+    border: 3px solid rgb(119, 119, 119);
+}
+.infoEdu{
+    flex:2;
+    padding: 10px;
+    border: 3px solid rgb(119, 119, 119);
+}
+.infoEdu > * {
+    margin:8px;
+}
+#requestCount{
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#connectionNum{
+    width:50px;
+    height:28px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.white{
+    color: white;
+}
+.num{
+    color: black;
+}
+.icon{
+    width:15px;
+}
+.checkIcon{
+    width: 30px;
+}
+#profilePhoto{
+    position: absolute;
+    width:80px;
+    margin: 30px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.request{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.request > * {
+    margin:5px;
+    margin-top: 0px;
+}
+.users {
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 7px;
+}
+.profileName{
+    display:flex;
+    align-items: center;
+}
+.bottomBar{
+    flex:0.5;
+    border: 3px solid rgb(119, 119, 119);
+    border-top: none;
+    padding: 5px;
+}
+.connection{
+    display:flex;
+    align-items: center;
+}
